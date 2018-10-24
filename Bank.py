@@ -42,7 +42,7 @@ class Current(Account): #class "Current" and inherits from "Account".
 
 
         
-#Crate Savings account class
+#Create Savings account class
 class Savings(Account):
     def __init__(self, name, balance):
         super().__init__(name, balance, min_balance = 0)
